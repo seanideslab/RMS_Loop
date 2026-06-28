@@ -1,0 +1,7 @@
+threshold: 0.62
+weights:
+  exploitability_reduction: 0.35
+  test_evidence: 0.25
+  static_confidence: 0.2
+  regression_risk: -0.15
+  complexity_penalty: -0.05

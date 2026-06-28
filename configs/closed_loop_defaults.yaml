@@ -1,0 +1,5 @@
+seed: 7
+rounds: 8
+canary_threshold: 0.65
+rollback_threshold: 0.78
+base_ttm_hours: 72

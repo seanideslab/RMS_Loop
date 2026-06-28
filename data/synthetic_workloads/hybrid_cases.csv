@@ -1,0 +1,4 @@
+case_id,vulnerability_type,base_signal,criticality
+H1,hybrid,0.88,0.95
+H2,hybrid,0.76,0.85
+H3,hybrid,0.64,0.75

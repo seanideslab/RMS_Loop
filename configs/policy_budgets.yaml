@@ -1,0 +1,4 @@
+seed: 42
+overhead_budget_pct: 5.0
+security_weight: 0.7
+overhead_weight: 0.3

@@ -1,0 +1,4 @@
+case_id,vulnerability_type,base_signal,criticality
+T1,temporal,0.84,0.9
+T2,temporal,0.72,0.8
+T3,temporal,0.60,0.7

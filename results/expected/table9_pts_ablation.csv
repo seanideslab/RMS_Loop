@@ -1,0 +1,9 @@
+instance_id,cwe,label,exploitability_reduction,test_evidence,static_confidence,regression_risk,complexity_penalty,pts_score,admitted
+JUL-001,CWE-121,1,0.92,0.86,0.8,0.12,0.2,0.669,True
+JUL-002,CWE-122,1,0.84,0.78,0.74,0.2,0.25,0.5945,False
+JUL-003,CWE-416,0,0.4,0.36,0.44,0.62,0.55,0.1975,False
+JUL-004,CWE-787,1,0.88,0.82,0.79,0.18,0.22,0.633,True
+JUL-005,CWE-190,0,0.45,0.52,0.5,0.46,0.44,0.2965,False
+JUL-006,CWE-415,1,0.81,0.75,0.72,0.16,0.3,0.576,False
+JUL-007,CWE-119,0,0.38,0.42,0.47,0.58,0.5,0.22,False
+JUL-008,CWE-120,1,0.9,0.88,0.84,0.1,0.18,0.679,True

@@ -1,0 +1,25 @@
+# Python/cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+venv/
+.env
+.env.*
+
+# Local/private artifacts
+*.log
+*.docx
+*.pdf
+.DS_Store
+private_notes/
+submission_screenshots/
+
+# Generated outputs are reproducible
+results/generated/*
+!results/generated/.gitkeep
+figures/generated/*
+!figures/generated/.gitkeep

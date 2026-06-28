@@ -1,0 +1,9 @@
+round,risk,canary_pass,rollback,time_to_mitigation_hours,pts_weight_multiplier
+1,0.4912,True,False,57.83,1.015
+2,0.5048,True,False,54.47,1.03
+3,0.5329,True,False,51.1,1.045
+4,0.5704,True,False,47.74,1.06
+5,0.614,True,False,44.37,1.075
+6,0.6616,False,False,53.06,1.09
+7,0.7118,False,False,48.71,1.105
+8,0.7637,False,False,44.35,1.12

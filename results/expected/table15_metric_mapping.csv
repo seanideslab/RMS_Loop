@@ -1,0 +1,5 @@
+metric,component,output
+capture_rate,telemetry,results/generated/telemetry_robustness.csv
+time_to_mitigation_hours,closed_loop,results/generated/table13_closed_loop_metrics.csv
+pts_score,crm_pts,results/generated/table9_pts_ablation.csv
+policy_score,policy_engine,results/generated/table7_policy_results.csv

@@ -1,0 +1,7 @@
+policy,granularity,capture_probability,overhead_pct,compatibility
+baseline_none,none,0.18,0.0,1.00
+page_tags,page,0.54,1.2,0.98
+object_tags,object,0.76,3.4,0.94
+field_tags,field,0.88,5.8,0.88
+hybrid_hot_object,hybrid,0.83,4.6,0.92
+hybrid_adaptive,hybrid,0.86,4.9,0.93

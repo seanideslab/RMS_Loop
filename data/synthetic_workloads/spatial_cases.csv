@@ -1,0 +1,4 @@
+case_id,vulnerability_type,base_signal,criticality
+S1,spatial,0.92,0.9
+S2,spatial,0.80,0.8
+S3,spatial,0.68,0.7

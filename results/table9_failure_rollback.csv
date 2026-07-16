@@ -1,0 +1,6 @@
+case,type,description,notes
+FR-1,false_reject,CWE-415 borderline crash-rate signal,Representative case moved to Supplementary Table S4.
+FR-2,false_reject,CWE-415 borderline crash-rate signal,Representative case moved to Supplementary Table S4.
+FA-1,false_accept_ablation,Bloated patch accepted when phi1 absent,Ablation case.
+FA-2,false_accept_ablation,Adversarial patch accepted when phi5 absent,Ablation case.
+FA-3,false_accept_ablation,Adversarial heap-OOB patch accepted when phi5 absent,Ablation case.

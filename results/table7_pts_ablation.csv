@@ -1,0 +1,3 @@
+condition,model,pauc_5,auroc,f1,recall,specificity,fa_adv,fa_bloat,theta,N,notes
+A,Full CRM/PTS,,,0.966,0.933,1.000,0/30,0/30,0.70,90,Controlled Juliet C/C++ study; replace empty ranking metrics with local final values if needed.
+F,Test-passing harness,0.033,0.641,0.500,0.567,0.650,10/30,11/30,0.70,90,Corrected FA-adv so total FP=21 and metrics are self-consistent.

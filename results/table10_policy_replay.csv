@@ -1,0 +1,4 @@
+budget_tau,modal_mode,mean_overhead,capture_rate,notes
+5%,MTE Async,2.17%,0.730,Offline control-flow replay; time-averaged behavior.
+15%,Sticky Tags,4.42%,,Offline control-flow replay; time-averaged behavior.
+70%,Sticky Tags,15.75%,,Mixed strategy with rare high-cost escalations.

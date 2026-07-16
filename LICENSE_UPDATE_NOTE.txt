@@ -1,0 +1,4 @@
+License update note
+
+This package does not overwrite your repository LICENSE file by default.
+Keep the existing repository license unless you intentionally need to update it.

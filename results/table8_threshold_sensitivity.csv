@@ -1,0 +1,4 @@
+theta,precision,recall,specificity,f1,N,notes
+0.60,,,,,90,Populate with final manuscript values if required.
+0.70,1.000,0.933,1.000,0.966,90,Default threshold.
+0.80,,,,,90,Populate with final manuscript values if required.

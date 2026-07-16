@@ -1,0 +1,5 @@
+poison_rate,method,risk_score,error
+20% poison,No defense,0.95,0.05
+20% poison,Influence-ceiling + trust-decay,0.74,0.05
+40% poison,No defense,0.92,0.05
+40% poison,Influence-ceiling + trust-decay,0.70,0.05

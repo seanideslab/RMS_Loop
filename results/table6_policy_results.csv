@@ -1,0 +1,6 @@
+scenario,risk_class,budget_tau,selected_policy,overhead,benefit_or_notes
+Global Background Telemetry,Low,<=2%,GWP-ASan Sampling,"CPU <0.5%, RAM ~70KB/process",Low-probability heap sampling telemetry.
+Legacy Spatial Hardening,Medium,<=5%,Sticky Tags,3.1% to 4.0%,Budget-aware spatial hardening.
+High-Risk UAF Monitoring,High,<=8%,MTE Asynchronous,1.0% to 3.3%,Temporal memory monitoring.
+Incident Localization Window,Critical,<=15%,MTE Synchronous,11.9% to 14.4%,Brief precise exception window.
+High-Value Cryptographic Core,Critical,<=70%,PACMem,"Runtime ~68.7%, Memory ~106%",Reserved for selected high-sensitivity functions.

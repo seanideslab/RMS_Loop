@@ -1,35 +1,55 @@
 # RMS-Loop Artifact
 
-This repository contains the reproducibility artifact for the manuscript: "RMS-Loop: An Executable Architecture for Closed-Loop Memory-Safety Operations in Legacy C/C++ Systems."
+**Manuscript:** *RMS-Loop: A Deployment-Aware Architecture and Evaluation Blueprint for Closed-Loop Memory-Safety Operations in Legacy C/C++ Systems*
 
-## Scope
+This repository supports the component-level studies and offline control-flow simulation reported in the JISA resubmission of RMS-Loop. The artifact is intended to reproduce the reported tables and figures for the adaptive policy-engine study, CRM/PTS candidate-patch admission study, noisy closed-loop replay, telemetry degradation analysis, and baseline comparison.
 
-This artifact reproduces component-level studies and an offline closed-loop simulation. It is not a production deployment of RMS-Loop and does not claim a completed large-scale real-system deployment. The repository provides executable evaluation scripts, synthetic workloads, anonymized feature records, and analytic overhead assumptions.
+RMS-Loop is not provided here as a production deployment or as an AI/ML repair model. Externally generated candidate patches are treated only as inputs to the CRM/PTS governance pipeline. The manuscript contribution is a deployment-aware memory-safety control-plane architecture and evaluation blueprint.
 
-## Quick Start
+## Artifact scope
+
+This artifact provides:
+- final result CSV files aligned with the JISA-safe manuscript;
+- plotting scripts for manuscript figures, especially the updated Fig. 9;
+- reproducibility metadata, including table/figure mapping, field definitions, and seed documentation;
+- configuration placeholders for component-level and offline replay studies.
+
+This artifact does **not** claim to provide production-scale validation, live telemetry, silicon-level hardware validation, or a repository-scale APR benchmark.
+
+## Quick start
 
 ```bash
 python -m venv .venv
-source .venv/bin/activate
-# Optional: pip install -r requirements.txt
-bash scripts/run_all.sh
+source .venv/bin/activate   # Windows: .venv\Scripts\activate
+pip install -r requirements.txt
+python scripts/plot_fig9.py
 ```
 
-Expected runtime is under two minutes on a typical laptop. The baseline scripts use only the Python standard library; `requirements.txt` is provided for optional scientific-stack extensions.
+To regenerate currently included lightweight figures:
 
-## Reproducing Manuscript Results
+```bash
+python scripts/reproduce_all.py
+```
 
-| Manuscript item | Script | Output |
-|---|---|---|
-| Table 7 / Fig. 6 | `scripts/run_policy_engine.py` | `results/generated/table7_policy_results.csv` |
-| Table 8 / Table 9 | `scripts/run_pts_evaluation.py` | `results/generated/table8_pts_metrics.csv` |
-| Telemetry robustness / Fig. 11 | `scripts/run_telemetry_robustness.py` | `results/generated/telemetry_robustness.csv` |
-| Table 12 / Table 13 / Fig. 10 | `scripts/run_closed_loop_simulation.py` | `results/generated/table13_closed_loop_metrics.csv` |
+Generated figures are written to `figures/`.
 
-## Synthetic Data and Assumptions
+## Repository structure
 
-The artifact uses synthetic workloads, anonymized candidate metadata, and analytic hardware-policy overhead models. Random seeds are listed in `configs/random_seeds.yaml`.
+```text
+configs/        Configuration files and placeholders for simulation runs
+data/           Raw or source input data, when available
+figures/        Generated manuscript figures
+results/        Final CSV result tables used by the manuscript
+rmsloop/        RMS-Loop package placeholder / implementation modules
+scripts/        Plotting and reproduction scripts
+tests/          Lightweight validation tests
+```
 
-## License
+## Main manuscript alignment
 
-MIT License, attributed to Anonymous Authors for double-anonymous review.
+The current result files are aligned with the JISA resubmission version using the following main text numbering:
+- Tables 6–13
+- Figures 6–9
+- Graphical abstract
+
+See `MANIFEST.md` for exact file-to-table/figure mapping.
